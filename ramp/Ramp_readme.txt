@@ -14,13 +14,13 @@ Strickly No payware routes, this model is for freeware routes only.
 
 All objects that are used to build up the scenery of your route will have to be added to your route’s file structure. 
 
-Place the ramp.s files into "MY ROUTE/SHAPES" folder (Open Rails needs no SD file)
-Place the ramp.dds into "MY ROUTE/TEXTURES" folder 
+Place the ramp2.s files into "MY ROUTE/SHAPES" folder (Open Rails needs no SD file)
+Place the dock.dds into "MY ROUTE/TEXTURES" folder 
 Lastly, Add an entry for the object at the bottom of your <myroutename>.ref file.
 
 ----
 Static (
-    FileName ( ramp.s)
+    FileName ( ramp2.s)
         Class ( “Loading Ramp, Concrete" )
         Align( None )
     Description( “A concrete loading ramp, 21m long, 1.2m tall and 4.5m wide." )
